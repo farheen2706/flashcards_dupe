@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\calculator"
+		},
+		{
+			"path": "..\\..\\progressbar"
+		},
+		{
+			"path": "..\\..\\llama"
+		}
+	],
+	"settings": {}
+}
