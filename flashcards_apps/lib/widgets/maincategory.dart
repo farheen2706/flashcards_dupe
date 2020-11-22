@@ -1,6 +1,6 @@
-import 'widgets/newcategory.dart';
-import 'widgets/categorieslist.dart';
-import 'models/categories.dart';
+import 'newcategory.dart';
+import 'categorieslist.dart';
+import '../models/categories.dart';
 import 'package:flutter/material.dart';
 
 

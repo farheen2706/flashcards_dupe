@@ -31,7 +31,7 @@ class _NewQndAState extends State<NewQndA> {
   @override
   Widget build(BuildContext context) {
     return Card(
-      child: Row(children: <Widget>[
+      child: Column(children: <Widget>[
       TextField(
         controller: qcontroller,
         onSubmitted: (_) => submitData(),

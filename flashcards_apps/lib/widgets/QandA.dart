@@ -1,6 +1,6 @@
-import 'widgets/newQandA.dart';
-import 'widgets/QandAlist.dart';
-import 'models/QndA.dart';
+import 'newQandA.dart';
+import 'QandAlist.dart';
+import '../models/QndA.dart';
 import 'package:flutter/material.dart';
 
 class NextPage extends StatefulWidget {

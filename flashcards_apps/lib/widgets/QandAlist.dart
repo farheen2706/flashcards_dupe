@@ -18,13 +18,17 @@ class QandAlist extends StatelessWidget {
             horizontal: 5,
           ),
           child: ListTile(
-            title: Text(
+            title: Text("Q: "+
               qnda[index].question,
+              style:TextStyle(
+              fontSize: 20,
+              ),
             ),
             subtitle: Text(
-              qnda[index].answer,
+              "A: "+qnda[index].answer,
               style: TextStyle(
                 fontSize: 15,
+                fontWeight: FontWeight.bold,
                 color: Colors.black,
               ),
             ),

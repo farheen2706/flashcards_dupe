@@ -1,5 +1,8 @@
+
+import 'package:flashcards_apps/widgets/maincategory.dart';
 import 'package:flutter/material.dart';
-import 'maincategory.dart';
+//import 'maincategory.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -25,3 +28,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+ 
