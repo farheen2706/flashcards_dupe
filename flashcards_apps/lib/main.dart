@@ -1,4 +1,6 @@
 
+import 'package:flashcards_apps/widgets/QandA.dart';
+import 'package:flashcards_apps/widgets/categorieslist.dart';
 import 'package:flashcards_apps/widgets/maincategory.dart';
 import 'package:flutter/material.dart';
 //import 'maincategory.dart';
@@ -25,6 +27,7 @@ class MyApp extends StatelessWidget {
         ),
       ), //to not put colors everytime
       home: MyHome(),
+      
     );
   }
 }

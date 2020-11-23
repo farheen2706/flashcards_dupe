@@ -57,12 +57,7 @@ class _MyHomeState extends State<MyHome> {
         style: TextStyle(fontWeight: FontWeight.bold),
       ),
       backgroundColor: Theme.of(context).primaryColor,
-      actions: <Widget>[
-        IconButton(
-          icon: Icon(Icons.add),
-          onPressed: () => _startAddnewCategory(context),
-        )
-      ],
+    
     );
     return Scaffold(
       appBar: appBar,

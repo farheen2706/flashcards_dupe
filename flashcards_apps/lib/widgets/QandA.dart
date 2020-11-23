@@ -4,6 +4,7 @@ import '../models/QndA.dart';
 import 'package:flutter/material.dart';
 
 class NextPage extends StatefulWidget {
+  static const routname = "/NextPage";
   @override
   _NextPageState createState() => _NextPageState();
 }
@@ -39,9 +40,10 @@ class _NextPageState extends State<NextPage> {
 
   @override
   Widget build(BuildContext context) {
+    
     final appBar = AppBar(
       title: Text(
-        'Flashcards',
+        'flashcards',
         textAlign: TextAlign.left,
         style: TextStyle(fontWeight: FontWeight.bold),
       ),
@@ -53,7 +55,6 @@ class _NextPageState extends State<NextPage> {
         )
       ],
     );
-    
 
     return Scaffold(
       appBar: appBar,
@@ -64,8 +65,8 @@ class _NextPageState extends State<NextPage> {
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
             colors: [
-                Theme.of(context).primaryColorLight,
-                Theme.of(context).primaryColorDark,
+              Theme.of(context).primaryColorLight,
+              Theme.of(context).primaryColorDark,
             ],
           ),
         ),
@@ -73,7 +74,8 @@ class _NextPageState extends State<NextPage> {
           child: Column(
             children: [
               Container(
-                height: MediaQuery.of(context).size.height-appBar.preferredSize.height,
+                height: MediaQuery.of(context).size.height -
+                    appBar.preferredSize.height,
                 child: QandAlist(
                   _userQandA,
                   _deleteqanda,
