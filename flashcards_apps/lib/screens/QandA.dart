@@ -1,6 +1,7 @@
-import 'newQandA.dart';
-import 'QandAlist.dart';
+import '../widgets/newQandA.dart';
+import '../widgets/QandAlist.dart';
 import '../models/QndA.dart';
+//import '../models/categories.dart';
 import 'package:flutter/material.dart';
 
 class NextPage extends StatefulWidget {
@@ -14,7 +15,9 @@ class _NextPageState extends State<NextPage> {
 
   void _addnewqanda(String question, String answer) {
     final newqa = QandA(
-        id: DateTime.now().toString(), question: question, answer: answer);
+        id: DateTime.now().toString(),
+        question: question,
+        answer: answer); // categoryIds: Categories. );
     setState(() {
       _userQandA.add(newqa);
     });
@@ -40,7 +43,6 @@ class _NextPageState extends State<NextPage> {
 
   @override
   Widget build(BuildContext context) {
-    
     final appBar = AppBar(
       title: Text(
         'flashcards',

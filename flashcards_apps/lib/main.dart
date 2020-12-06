@@ -1,7 +1,7 @@
 
-import 'package:flashcards_apps/widgets/QandA.dart';
-import 'package:flashcards_apps/widgets/categorieslist.dart';
-import 'package:flashcards_apps/widgets/maincategory.dart';
+//import './screens/QandA.dart';
+//import './widgets/categorieslist.dart';
+import './screens/maincategory.dart';
 import 'package:flutter/material.dart';
 //import 'maincategory.dart';
 

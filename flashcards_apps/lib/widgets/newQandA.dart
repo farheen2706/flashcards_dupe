@@ -44,7 +44,7 @@ class _NewQndAState extends State<NewQndA> {
         child: Text("Add"),
         onPressed: submitData,)
       ],
-      
+        
       ),
     );
   }
