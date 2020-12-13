@@ -5,13 +5,15 @@ import '../models/QndA.dart';
 import 'package:flutter/material.dart';
 
 class NextPage extends StatefulWidget {
-  static const routname = "/NextPage";
+ // static const routname = "/NextPage";
   @override
   _NextPageState createState() => _NextPageState();
 }
 
 class _NextPageState extends State<NextPage> {
   final List<QandA> _userQandA = [];
+
+
 
   void _addnewqanda(String question, String answer) {
     final newqa = QandA(
